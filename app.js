@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Checking if the Web Bluetooth API is supported on the device
     if ('bluetooth' in navigator) {
-        outputDiv.innerHTML = 'Web Bluetooth is supported!';     // this  will be displayed if supported
+        outputDiv.innerHTML = 'Scanning is supported!';     // this  will be displayed if supported
     } else {
-        outputDiv.innerHTML = 'Web Bluetooth is not supported on this device/browser.';  // this will be displayed if not supported and it won't follow the rest actions
+        outputDiv.innerHTML = 'Scanning is not supported on this device/browser.';  // this will be displayed if not supported and it won't follow the rest actions
         return;
     }
 
