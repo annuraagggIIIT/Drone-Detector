@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: yellow;
+}
+
+#startScan {
+    margin-top: 200px; /* Adjust this value to increase/decrease space between button and top */
+}
